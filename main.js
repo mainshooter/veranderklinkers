@@ -30,6 +30,7 @@ function codeInput(version) {
             // Here we look if we have the correct letter
             // Be comparesing it with the text and the replace array
             text[i] = replaceArray[t][2];
+            // Replace the texts
           }
         }
       }
@@ -40,7 +41,7 @@ function codeInput(version) {
 function display(array) {
   for (var i = 0; i < array.length; i++) {
     document.getElementById('result').innerHTML += array[i];
-    // array[i]
+    // Displaying the new input
   }
 }
 function getText() {
